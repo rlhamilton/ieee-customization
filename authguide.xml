@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://docbook.org/ns/docbook"
+	 xml:lang="en-US"
+	 version="5.0">
+  <info>
+    <title>Author Guidelines for 8.5 x 11-inch Proceedings Manuscripts</title>
+    <authorgroup>
+      <author>
+        <personname>
+          <firstname>Author-1</firstname>
+          <surname>Name-1</surname>
+        </personname>
+        <affiliation>
+          <orgname>Author Affiliation 1</orgname>
+          <address><email>Author1@orgname.com</email></address>
+        </affiliation>
+      </author>
+      <author>
+        <personname>
+          <firstname>Author-2</firstname>
+          <surname>Name-2</surname>
+        </personname>
+        <affiliation>
+          <orgname>Author Affiliation 2</orgname>
+          <address><email>Author2@orgname.com</email></address>
+        </affiliation>
+      </author>
+    </authorgroup>
+    <abstract>
+      <title>Abstract</title>
+      <para>
+        The abstract is to be in fully-justified italicized text, at
+        the top of the left-hand column as it is here, below the
+        author information. Use the word “Abstract” as the title, in
+        12-point Times, boldface type, centered relative to the
+        column, initially capitalized. The abstract is to be in
+        10-point, single-spaced type, and up to 150 words in
+        length. Leave two blank lines after the abstract, then begin
+        the main text.
+      </para>
+    </abstract>
+  </info>
+  
+  <section xml:id="Section1">
+    <title>Introduction</title>
+    <para>
+      All manuscripts must be in English. These guidelines include
+      complete descriptions of the fonts, spacing, and related
+      information for producing your proceedings manuscripts.
+      Please follow them and if you have any questions, direct
+      them to the production editor in charge of your proceedings
+      at the IEEE Computer Society Press: Phone (714) 821-8380 or
+    Fax (714) 761-1784.</para>
+  </section>
+  <section xml:id="Section2">
+    <title>Formatting your paper</title>
+    <para>
+      All printed material, including text, illustrations, and
+      charts, must be kept within a print area of 6-1/2 inches
+      (16.51 cm) wide by 8-7/8 inches (22.51 cm) high. Do not
+      write or print anything outside the print area. All text
+      must be in a two-column format.  Columns are to be 3-1/16
+      inches (7.85 cm) wide, with a 3/8 inch (0.81 cm) space
+      between them. Text must be fully justified.
+    </para>
+    <para>
+      A format sheet with the margins and placement guides is
+      available as both Word and PDF files as &lt;format.doc&gt;
+      and &lt;format.pdf&gt;. It contains lines and boxes showing
+      the margins and print areas. If you hold it and your printed
+      page up to the light, you can easily check your margins to
+      see if your print area fits within the space allowed.
+    </para>
+  </section>
+  <section xml:id="Section3">
+    <title>Main title</title>
+    <para>
+      The main title (on the first page) should begin 1-3/8 inches
+      (3.49 cm) from the top edge of the page, centered, and in
+      Times 14-point, boldface type. Capitalize the first letter
+      of nouns, pronouns, verbs, adjectives, and adverbs; do not
+      capitalize articles, coordinate conjunctions, or
+      prepositions (unless the title begins with such a word).
+      Leave two 12-point blank lines after the title.
+    </para>
+  </section>
+  <section xml:id="Section4">
+    <title>Author name(s) and affiliation(s)</title>
+    <para>
+      Author names and affiliations are to be centered beneath the
+      title and printed in Times 12-point, non-boldface
+      type. Multiple authors may be shown in a two- or
+      three-column format, with their affiliations italicized and
+      centered below their respective names. Include e-mail
+      addresses if possible. Author information should be followed
+      by two 12-point blank lines.
+    </para>
+  </section>
+  <section xml:id="Section5">
+    <title>Second and following pages</title>
+    <para>
+      The second and following pages should begin 1.0 inch (2.54
+      cm) from the top edge. On all pages, the bottom margin
+      should be 1-1/8 inches (2.86 cm) from the bottom edge of the
+      page for 8.5 x 11-inch paper; for A4 paper, approximately
+      1-5/8 inches (4.13 cm) from the bottom edge of the page.
+    </para>
+  </section>
+  <section xml:id="Section6">
+    <title>Type-style and fonts</title>
+    <para>
+      Wherever Times is specified, Times Roman or Times New Roman
+      may be used. If neither is available on your word processor,
+      please use the font closest in appearance to Times.  Avoid
+      using bit-mapped fonts if possible. True-Type 1 fonts are
+      preferred.
+    </para>
+  </section>
+  <section xml:id="Section7">
+    <title>Main text</title>
+    <para>
+      Type your main text in 10-point Times, single-spaced. Do not
+      use double-spacing. All paragraphs should be indented 1/4
+      inch (approximately 0.5 cm). Be sure your text is fully
+      justified—that is, flush left and flush right. Please do not
+      place any additional blank lines between paragraphs.
+    </para>
+    <para>
+      Figure and table captions should be 10-point boldface
+      Helvetica (or a similar sans-serif font). Callouts should be
+      9-point non-boldface Helvetica. Initially capitalize only
+      the first word of each figure caption and table
+      title. Figures and tables must be numbered separately. For
+      example: “Figure 1. Database contexts”, “Table 1. Input
+      data”. Figure captions are to be centered below the
+      figures. Table titles are to be centered above the tables.
+    </para>
+  </section>
+  <section>
+    <title>Figures and tables</title>
+    <para>We will insert a figure into the file:</para>
+    <figure>
+      <title>Duck stamp</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata scalefit="1"
+                     align="center"
+                     fileref="graphics/stamp200x128.gif"
+                     format="GIF">
+            <info>
+              <orgname>O'Reilly &amp; Associates/Dover Archives</orgname>
+            </info>
+          </imagedata>
+          
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <para>
+      Here is a formal table, set up with a width of 100%.
+    </para>
+    <table frame="all">
+      <title>Table title</title>
+      <?dbfo table-width="100%"?>
+      <tgroup cols="3">
+        <tbody>
+          <row>
+            <entry>a foo</entry>
+            <entry>a bar</entry>
+            <entry>a baz</entry>
+          </row>
+          <row>
+            <entry>b foo</entry>
+            <entry>b bar</entry>
+            <entry>b baz</entry>
+          </row>
+          <row>
+            <entry>c foo</entry>
+            <entry>c foo</entry>
+            <entry>c baz</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </section>
+  <section xml:id="Section8">
+    <title>First-order headings</title>
+    <para>
+      For example, “1. Introduction”, should be Times 12-point
+      boldface, initially capitalized, flush left, with one blank
+      line before, and one blank line after. Use a period (“.”)
+      after the heading number, not a colon.
+    </para>
+    <section xml:id="Section81">
+      <title>Second-order headings</title>
+      <para>
+        As in this heading, they should be Times 11-point
+        boldface, initially capitalized, flush left, with one
+        blank line before, and one after.
+      </para>
+      <section xml:id="Section811">
+        <title>Third-order headings</title>
+        <para>
+          Third-order headings, as in this paragraph, are
+          discouraged. However, if you must use them, use
+          10-point Times, boldface, initially capitalized,
+          flush left, preceded by one blank line, followed by
+          a period and your text on the same line.
+        </para>
+        <para>
+          Another paragraph under the 3rd order heading, just
+          to be sure it works correctly.
+        </para>
+      </section>
+    </section>
+  </section>
+  <section xml:id="Section9">
+    <title>Footnotes</title>
+    <para>
+      Use footnotes sparingly (or not at all) and place them at
+      the bottom of the column on the page on which they are
+      referenced. Use Times 8-point type, single-spaced. To help
+      your readers, avoid using footnotes
+      <footnote>
+        <para>
+          Especially footnotes that are unnecessary, longer
+          than strictly necessary, and written to be sure it
+          is longer than one column width, like this
+        one.</para>
+      </footnote>
+      altogether and include necessary peripheral observations in
+      the text (within parentheses, if you prefer, as in this
+      sentence).
+    </para>
+  </section>
+  <section xml:id="Section10">
+    <title>References</title>
+    <para>
+      List and number all bibliographical references in 9-point
+      Times, single-spaced, at the end of your paper. When
+      referenced in the text, enclose the citation number in
+      square brackets, for example [1]. Where appropriate, include
+      the name(s) of editors of referenced books.
+      <footnote>
+        <para>
+          Here is a footnotes that are unnecessary, longer than
+          strictly necessary, and written to be sure it is longer
+          than one column width, like this one.
+        </para>
+      </footnote>
+    </para>
+    <bibliography>
+      <biblioentry>
+        <biblioset relation="article">
+          <authorgroup>
+            <author>
+              <personname>
+                <firstname>A.B.</firstname>
+                <surname>Smith</surname>
+              </personname>
+            </author>
+            <author>
+              <personname>
+                <firstname>C.D.</firstname>
+                <surname>Jones</surname>
+              </personname>
+            </author>
+            <author>
+              <personname>
+                <firstname>E.F.</firstname>
+                <surname>Roberts</surname>
+              </personname>
+            </author>
+          </authorgroup>
+          <title>Article Title</title>
+          <pubdate>Date</pubdate>
+          <pagenums>1-10</pagenums>
+        </biblioset>
+        <biblioset relation="journal">
+          <title>Journal</title>
+          <publisher>
+            <publishername>Publisher</publishername>
+            <address>Location</address>
+          </publisher>
+        </biblioset>
+      </biblioentry>
+      <biblioentry>
+        <authorgroup>
+          <author>
+            <personname>
+              <firstname>A.B.</firstname>
+              <surname>Smith</surname>
+            </personname>
+          </author>
+          <author>
+            <personname>
+              <firstname>C.D.</firstname>
+              <surname>Jones</surname>
+            </personname>
+          </author>
+          <author>
+            <personname>
+              <firstname>E.F.</firstname>
+              <surname>Roberts</surname>
+            </personname>
+          </author>
+        </authorgroup>
+        <title>Book Title</title>
+        <publisher>
+          <publishername>Publisher</publishername>
+          <address>Location</address>
+        </publisher>
+        <pubdate>Date</pubdate>
+      </biblioentry>
+    </bibliography>
+  </section>
+  <section xml:id="Section11">
+    <title>Copyright forms and reprint orders</title>
+    <para>
+      You <emphasis role="strong">must</emphasis> include your
+      fully-completed, signed IEEE copyright release form when you
+      submit your paper. We must have this form before your paper
+      can be published in the proceedings. The copyright form is
+      available as a Word file, &lt;copyright.doc&gt;, as a PDF
+      version, &lt;copyright.pdf&gt;, and as a text file in
+      &lt;authguid.txt&gt;.
+    </para>
+    <para>
+      Reprints may be ordered using the form provided as
+      &lt;reprint.doc&gt; or &lt;reprint.pdf&gt;.
+    </para>
+  </section>
+</article>
