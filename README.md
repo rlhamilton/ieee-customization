@@ -7,7 +7,7 @@ Version: 1.2
 This is a customization of the DocBook XSL Stylesheets
 that takes a DocBook article and converts it to a PDF
 file in IEEE conference proceedings style. It is released
-under the GNU General Public License (see LICENSE below).
+under the GNU General Public License (see LICENSE file).
 
 ## CAVEAT
 
