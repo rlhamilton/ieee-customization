@@ -13,7 +13,7 @@ under the GNU General Public License (see LICENSE below).
 
 This customization was originally written in 2007, revised in 2011,
 and further revised in 2020. However, even with revisions, it no
-longer conforms to current IEEE proceedings style, however, it
+longer conforms to current IEEE proceedings style. However, it
 may be useful as a starting place for subsequent customizations or
 for other publications that use a two-column format.
 
@@ -21,9 +21,9 @@ for other publications that use a two-column format.
 
 fo.xsl is a simple customization using the DocBook XSL
 stylesheets. You will need to edit the xsl:import line
-in this file to point to the standard DocBook XSL stylesheets.
+in this file to point to wherever you have placed the standard DocBook XSL stylesheets.
 
-This has been tested with stylesheets up to 1.79.2 and snapshots
+This has been tested with DocBook stylesheets up to 1.79.2 and snapshots
 through 20200603.
 
 The Makefile uses xsltproc for XSL processing and has targets
@@ -34,15 +34,17 @@ commands you want to use.
 The transform has been tested with xep and fop, but works best
 with xep. The fop rendering does not handle footnotes cleanly.
 
-To Do/Known Problems:
+The file authguide.xml contains a DocBook XML version of the author's guide used to create this stylesheet.
+You can build it by typing: make guidefop or make guidexep, depending on which formatter you choose to use.
+
+### To Do/Known Problems:
 
 The stylesheets are mostly complete, but not widely tested.
 Here are some known deficiencies:
 
 - This customization no longer (if it ever did) conforms with
   IEEE's conference format. It isn't too far off, but if you
-  want to use it to submit to IEEE, it will almost surely be
-  rejected.
+  use it to submit a paper to IEEE, the paper will almost surely be rejected.
 - Stylesheet did not work correctly with DocBook 1.72.0
   transforms, but it did work with 1.69.1 or 1.70.x, and
   also appears to work correctly with releases after 1.76.1.
@@ -61,19 +63,4 @@ Or, if you fix a problem, please send me the fix and
 I'll fold it back in. I can't guarantee that I can fix
 any problems, but I'll do my best.
 
-Richard Hamilton
-dick@rlhamilton.net
-23 November 2020
-
-LICENSE:
-    Copyright (C) 2007 Richard L. Hamilton
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+Richard Hamilton, 23 November 2020
